@@ -18,6 +18,4 @@ void main()
     {
         printf("invalid");
     }
-  
-    
-}
+  }
