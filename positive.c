@@ -3,7 +3,6 @@
 void main()
 {
     int i;
-    
     scanf("%d",&i);
     if (i==0)
     {
