@@ -1,4 +1,5 @@
 #include <stdio.h>
+//
 int main()
 {
 int original,reverse=0,num,remainder;
