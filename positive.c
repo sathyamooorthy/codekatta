@@ -1,19 +1,20 @@
 #include <stdio.h>
-
+#include<conio.h>
 void main()
 {
     int i;
     scanf("%d",&i);
     if (i==0)
     {
-    printf("zero");
+    printf("Zero");
         }
     else if(i>=1)
     {
-    printf("positive");
+    printf("Positive");
     }
     else
     {
-        printf("negative");
+        printf("Negative");
     }
+
 }
