@@ -16,8 +16,6 @@ int main()
      }
  }
  else if(number == 1)
- {
      printf("1");
- }
   return 0;  
  }    
