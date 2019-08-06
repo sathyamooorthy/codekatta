@@ -2,16 +2,16 @@
  
 int main()
 {
-    int tally;
+    int i;
     int number;
     unsigned char flag=0;
  
     
     scanf("%d",&number);
  
-    for(tally=2; tally<=(number/2); tally++)
+    for(i=2; i<=(number/2); i++)
     {
-        if(number%tally ==0)
+        if(number%i ==0)
         {
             flag=1;
             break;
