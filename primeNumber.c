@@ -6,7 +6,7 @@ int main()
     int number;
     unsigned char flag=0;
  
-    printf("Enter an integer number : ");
+    
     scanf("%d",&number);
  
     for(tally=2; tally<=(number/2); tally++)
@@ -19,9 +19,9 @@ int main()
     }
      
     if(flag==0)
-        printf("\n%d is a prime number.",number);
+        printf("yes");
     else
-        printf("\n%d is not a prime number.",number);
+        printf("no");
  
     return 0;
 }
