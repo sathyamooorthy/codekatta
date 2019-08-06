@@ -5,8 +5,10 @@ int main()
  scanf("%d",&number);    
  if(number > 1)
  {
+      printf(" %d %d",n1, n2);
      for(i=2;i<number;++i)
      {    
+           
       n3=n1+n2;    
       printf(" %d",n3);    
       n1=n2;    
@@ -18,4 +20,4 @@ int main()
      printf("1");
  }
   return 0;  
- }  
+ }    
