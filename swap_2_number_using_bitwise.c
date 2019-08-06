@@ -4,7 +4,6 @@ void swap(int*, int *);
 void main()
 {
     int num1, num2;
-    printf("\nEnter two numbers:");
     scanf("%d %d", &num1, &num2);
     swap(&num1, &num2);     
   }
