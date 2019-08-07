@@ -4,12 +4,12 @@ int main()
 {
     int i;
     scanf("%d",&i);
-    if(i%2==0)
+    if((i%2==1) && (i != 1))
     {
-        printf("yes");
+        printf("no");
     }
     else
     {
-        printf("no");
+        printf("yes");
     }
 }
