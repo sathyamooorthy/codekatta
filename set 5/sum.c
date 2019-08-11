@@ -2,18 +2,9 @@
 #include<string.h> 
 int main()
 {
-   int i,n,a[20],sum=0,val;
-   scanf("%d",&n);
-   for(i=0;i<n;i++)
-   {
-       scanf("%d",&a[i]);
-   }
-   for(i=0;i<n;i++)
-   {
-       sum=sum+a[i];
-       
-   }
-  
-   printf("%d", sum);
+  int a, b,c;
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("%d",c);
     return 0;
 }
