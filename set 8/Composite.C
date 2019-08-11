@@ -19,9 +19,9 @@ int main()
     }
      
     if(flag==0)
-        printf("yes");
-    else
         printf("no");
+    else
+        printf("yes");
  
     return 0;
 }
